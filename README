@@ -1,0 +1,26 @@
+backend-tcc/
+│
+├── index.js             # Inicializa o servidor
+├── package.json
+├── .env
+├── .gitignore
+│
+├── config/
+│   └── db.js            # Conexão com MySQL
+│
+├── controllers/         # Recebe requisições HTTP
+│  
+│ 
+├── services/            # Regras de negócio
+│
+│
+├── DAO/                 # Acesso ao banco (SQL)
+│ 
+│
+├── routes/              # Rotas da API
+│  
+│
+├── middlewares/         # Autenticação, validações, etc.
+│
+│
+└── models/              # Classes/Entidades (opcional)

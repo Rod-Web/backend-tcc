@@ -1,0 +1,29 @@
+{
+  "name": "backend-tcc",
+  "version": "1.0.0",
+  "description": "backend-tcc/\r │\r ├── index.js             # Inicializa o servidor\r ├── package.json\r ├── .env\r ├── .gitignore\r │\r ├── config/\r │   └── db.js            # Conexão com MySQL\r │\r ├── controllers/         # Recebe requisições HTTP\r │  \r │ \r ├── services/            # Regras de negócio\r │\r │\r ├── DAO/                 # Acesso ao banco (SQL)\r │ \r │\r ├── routes/              # Rotas da API\r │  \r │\r ├── middlewares/         # Autenticação, validações, etc.\r │\r │\r └── models/              # Classes/Entidades (opcional)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rod-Web/backend-tcc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rod-Web/backend-tcc/issues"
+  },
+  "homepage": "https://github.com/Rod-Web/backend-tcc#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mysql2": "^3.22.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
